@@ -1,18 +1,28 @@
 function Navbar() {
   return (
     <header>
-      <nav>
+      <nav className="sm:px-10 bg-[var(--dark-gray)]">
         <ul className="nav-bar">
           <li className="logo">
-            <a href="#">Evolugi</a>
+            <a href="#">
+              <div className="flex justify-center items-center gap-x-5">
+                <img
+                  src="images/evolugitech-logo.png"
+                  alt="Evolugi Tech Logo"
+                />
+                <span className="font-bold text-xl hidden sm:block">
+                  Evolugi Tech
+                </span>
+              </div>
+            </a>
           </li>
           <input type="checkbox" id="check" />
-          <span className="menu">
+          <div className="menu">
             <li>
-              <a href="">Home</a>
+              <a href="">Tech Reviews</a>
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="">Articles</a>
             </li>
             <li>
               <a href="">About</a>
@@ -20,7 +30,7 @@ function Navbar() {
             <label htmlFor="check" className="close-menu">
               X
             </label>
-          </span>
+          </div>
           <label htmlFor="check" className="open-menu">
             Open
           </label>
