@@ -19,10 +19,10 @@ function Navbar() {
           <input type="checkbox" id="check" />
           <div className="menu">
             <li>
-              <a href="">Tech Reviews</a>
+              <a href="">Tech</a>
             </li>
             <li>
-              <a href="">Articles</a>
+              <a href="">Reviews</a>
             </li>
             <li>
               <a href="">About</a>

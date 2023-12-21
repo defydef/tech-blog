@@ -10,11 +10,13 @@
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
+  color: var(--white);
 
   /* CSS variables */
   --white: #ededed;
   --rich-black: #061826;
-  --dark-gray: #283044;
+  --dark-gray: #0d1d2a;
+  --card-bg: #13222d;
   --teal: #00afb9;
   --gray: #2c3e50;
   --orange: #f39c12;
