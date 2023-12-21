@@ -1,6 +1,6 @@
 function Card() {
   return (
-    <section className="bg-[var(--card-bg)]">
+    <section className="bg-[var(--card-bg)] w-96 p-10">
       <img />
       <div className="flex flex-col">
         <span>Smartphones</span>
